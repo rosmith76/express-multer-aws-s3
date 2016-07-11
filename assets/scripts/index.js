@@ -14,7 +14,8 @@ $(() => {
 
     $.ajax({
       method: 'POST',
-      url: 'http://httpbin.org/post',
+      // url: 'http://httpbin.org/post',
+      url: 'http://localhost:3000/uploads',
       data: getFormFields(event.target),
     })
     .done((data) => console.log(data))
@@ -27,7 +28,8 @@ $(() => {
 
     $.ajax({
       method: 'POST',
-      url: 'http://httpbin.org/post',
+      // url: 'http://httpbin.org/post',
+      url: 'http://localhost:3000/uploads',
       data: new FormData(event.target),
       contentType: false,
       processData: false,
