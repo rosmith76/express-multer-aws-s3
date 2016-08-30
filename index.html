@@ -6,29 +6,34 @@
     <script src="vendor.bundle.js" type="text/javascript" charset="utf-8" defer></script>
     <script src="bundle.js" type="text/javascript" charset="utf-8" defer></script>
   </head>
+
   <body class="container-fluid">
     <form id="application-x-www-form-data" action="http://httpbin.org/post" method="post">
       <fieldset>
         <legend>enctype unset</legend>
-        <label>Comment
-          <input type="text" name="image[comment]">
+        <label>
+          Title
+          <input type="text" name="image[title]">
         </label>
-          <label>Image
-            <input type="file" name="image[file]">
-          </label>
-          <input type="submit" name="submit" value="Upload">
+        <label>
+          Image
+          <input type="file" name="image[file]">
+        </label>
+        <input type="submit" name="submit" value="Upload">
       </fieldset>
     </form>
     <form id="multipart-form-data" action="http://httpbin.org/post" method="post" enctype="multipart/form-data">
       <fieldset>
         <legend>enctype="multipart/form-data"</legend>
-        <label>Comment
-          <input type="text" name="image[comment]">
+        <label>
+          Title
+          <input type="text" name="image[title]">
         </label>
-          <label>Image
-            <input type="file" name="image[file]">
-          </label>
-          <input type="submit" name="submit" value="Upload">
+        <label>
+          Image
+          <input type="file" name="image[file]">
+        </label>
+        <input type="submit" name="submit" value="Upload">
       </fieldset>
     </form>
   </body>
