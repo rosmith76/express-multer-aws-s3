@@ -2,25 +2,29 @@
 
 # File upload with express and AWS S3
 
-## Instructions
+## Prerequisites
 
-[Install](https://github.com/ga-wdi-boston/express-api-template#installation)
- `express-api-template` into your training directory.  In step 2 rename
- `express-api-template` to `express-multer-api`.
+-   [aws-s3-setup-guide](https://github.com/ga-wdi-boston/aws-s3-setup-guide)
+-   [express-api](https://github.com/ga-wdi-boston/express-api)
 
 ## Objectives
 
-By the end of this lesson, students should be able to:
+By the end of this, developers should be able to:
 
 -   Upload files to AWS S3 from a node application.
 -   Create path names with a low chance of duplication
 -   Store information about uploaded files in MongoDB via Mongoose
 -   Upload files from a browser to express and store them in AWS S3.
 
-## Prerequisites
+## Preparation
 
--   [aws-s3-setup-guide](https://github.com/ga-wdi-boston/aws-s3-setup-guide)
--   [express-api](https://github.com/ga-wdi-boston/express-api)
+1.  [Fork and clone](https://github.com/ga-wdi-boston/meta/wiki/ForkAndClone)
+    this repository.
+1.  Create a new branch, `training`, for your work.
+1.  Install dependencies with `npm install`.
+1.  [Install](https://github.com/ga-wdi-boston/express-api-template#installation)
+    `express-api-template` into your training directory.  In step 2 rename
+    `express-api-template` to `express-multer-api`.
 
 ## Introduction
 
