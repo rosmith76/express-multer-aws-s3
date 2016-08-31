@@ -45,12 +45,17 @@ We'll use the following node modules as we build out this feature:
 -   [ ] `aws-sdk`
 -   [ ] `crypto`
 -   [ ] `dotenv`
--   [ ] `file-type`
+-   [ ] `mime`
 -   [ ] `fs`
 -   [ ] `mongoose`
 -   [ ] `express`
 -   [ ] `body-parser`
 -   [ ] `multer`
+
+The node package `file-type` night be more appropriate for getting a content
+type, but `mime` is sufficient for the command line portion of our feature
+build.  When we start handling uploads through `multer`, we'll see that we get
+file information from it.
 
 ## Structure
 
